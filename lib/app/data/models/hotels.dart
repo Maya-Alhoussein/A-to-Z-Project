@@ -1,0 +1,121 @@
+class Hotel {
+   String image, name, location, phone, city;
+   int price, id, views;
+   double numberofstars;
+
+  Hotel(
+      {required this.id,
+      required this.image,
+      required this.name,
+      required this.price,
+      required this.location,
+      required this.numberofstars,
+      required this.city,
+      required this.phone,
+      required this.views});
+}
+
+
+
+List<Hotel> hotels = [
+  Hotel(
+      id: 1,
+      name: 'Rotana',
+      location: 'Lebanon',
+      price: 234,
+      image: "assets/images/58e0c5de7aee84d87069dd1b8527a75c.jpeg",
+      numberofstars: 5,
+      city: 'Beirut',
+      phone: '+34 915 70 07 66',
+      views: 300),
+  Hotel(
+      id: 2,
+      name: 'Rotana',
+      location: 'Lebanon',
+      price: 234,
+      image: "assets/images/58e0c5de7aee84d87069dd1b8527a75c.jpeg",
+      numberofstars: 5,
+      city: 'Beirut',
+      phone: '+34 915 70 07 66',
+      views: 300),
+  Hotel(
+      id: 3,
+      name: 'Rotana',
+      location: 'Lebanon',
+      price: 234,
+      image: "assets/images/58e0c5de7aee84d87069dd1b8527a75c.jpeg",
+      numberofstars: 5,
+      city: 'Beirut',
+      phone: '+34 915 70 07 66',
+      views: 300),
+  Hotel(
+      id: 4,
+      name: 'Rotana',
+      location: 'Lebanon',
+      price: 234,
+      image: "assets/images/58e0c5de7aee84d87069dd1b8527a75c.jpeg",
+      numberofstars: 5,
+      city: 'Beirut',
+      phone: '+34 915 70 07 66',
+      views: 300),
+  Hotel(
+      id: 5,
+      name: 'Rotana',
+      location: 'Lebanon',
+      price: 234,
+      image: "assets/images/58e0c5de7aee84d87069dd1b8527a75c.jpeg",
+      numberofstars: 5,
+      city: 'Beirut',
+      phone: '+34 915 70 07 66',
+      views: 300),
+  Hotel(
+      id: 6,
+      name: 'Rotana',
+      location: 'Lebanon',
+      price: 234,
+      image: "assets/images/58e0c5de7aee84d87069dd1b8527a75c.jpeg",
+      numberofstars: 5,
+      city: 'Beirut',
+      phone: '+34 915 70 07 66',
+      views: 300),
+  Hotel(
+      id: 7,
+      name: 'Rotana',
+      location: 'Lebanon',
+      price: 234,
+      image: "assets/images/58e0c5de7aee84d87069dd1b8527a75c.jpeg",
+      numberofstars: 5,
+      city: 'Beirut',
+      phone: '+34 915 70 07 66',
+      views: 300),
+  Hotel(
+      id: 8,
+      name: 'Rotana',
+      location: 'Lebanon',
+      price: 234,
+      image: "assets/images/58e0c5de7aee84d87069dd1b8527a75c.jpeg",
+      numberofstars: 5,
+      city: 'Beirut',
+      phone: '+34 915 70 07 66',
+      views: 300),
+  Hotel(
+      id: 9,
+      name: 'Rotana',
+      location: 'Lebanon',
+      price: 234,
+      image: "assets/images/58e0c5de7aee84d87069dd1b8527a75c.jpeg",
+      numberofstars: 5,
+      city: 'Beirut',
+      phone: '+34 915 70 07 66',
+      views: 300),
+  Hotel(
+      id: 10,
+      name: 'Rotana',
+      location: 'Lebanon',
+      price: 234,
+      image: "assets/images/58e0c5de7aee84d87069dd1b8527a75c.jpeg",
+      numberofstars: 5,
+      city: 'Beirut',
+      phone: '+34 915 70 07 66',
+      views: 300),
+];
